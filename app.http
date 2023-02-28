@@ -1,0 +1,56 @@
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+// -----------------------------API 1/POST -------------------------------------
+POST  http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "sampath",
+  "password": "sampath123",
+  "name": "Sampath Surukutla",
+  "gender": "male"
+}
+###
+// -----------------------------API-2/POST -------------------------------------
+POST  http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+###
+// -----------------------------API-3/GET---------------------------------------
+GET http://localhost:3000/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-4/GET---------------------------------------
+GET http://localhost:3000/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-5/GET---------------------------------------
+GET http://localhost:3000/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-6/GET---------------------------------------
+GET http://localhost:3000/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-7/GET---------------------------------------
+GET http://localhost:3000/tweets/2/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-8/GET---------------------------------------
+GET http://localhost:3000/tweets/2/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-9/GET---------------------------------------
+GET http://localhost:3000/users/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-10/GET--------------------------------------
+POST http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
+###
+// -----------------------------API-11/GET--------------------------------------
+DELETE http://localhost:3000/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjc3NTc5Mjg5fQ.mGtBJYtWKlgN6zzfYC3qN0sc_SC_zmyFv0zcVZ9IDoE
